@@ -1,0 +1,23 @@
+body {
+    background-color: orange;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    color: teal;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

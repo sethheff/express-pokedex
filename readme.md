@@ -22,12 +22,18 @@ We'll be using an existing application that uses the [PokeAPI](http://pokeapi.co
 
 - After setup, **STOP**. You're using an existing application, so make sure to read the code and ensure what the application does. Some questions you may want to ask yourself:
   - How does the app retrieve a list of Pokemon?
+  By calling on data from 'http://pokeapi.co/api/v2/pokemon/'
   - How many Pokemon does the API call retrieve? Why that many?
+  151. Because of the slice method we are determining the length of the array using slice
   - What are the routes defined in the application?
+  pokemon.js 
   - Think about adding a Pokemon to your favorites.
     - How will this data be submitted?
+    with a from containing hidden attributes and a vissible button
     - What will you have to do to save this data to a database?
+    Use a post route to add to add it to the database
     - What will you have to do to display favorite Pokemon?
+    Create a new route and ejs file for Favorites. Have the post route point to the ejs file and render <%= %> on the page.
 
 ## User Stories
 
