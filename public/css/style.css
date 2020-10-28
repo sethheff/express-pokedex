@@ -1,15 +1,17 @@
 body {
-    background-color: orange;
+    background-color: black;
     
 }
 
 h1 {
     color: white;
     text-align: center;
+    font-family: monospace;
 }
 
 div {
     text-align: center;
+    
 }
 
 ul {
@@ -20,4 +22,15 @@ li {
     color: teal;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-primary {
+    background-color: orange;
+    color: white;
+    border-color: white;
+}
+
+h2 {
+    font-family: monospace;
+    font-weight: bolder;
 }
