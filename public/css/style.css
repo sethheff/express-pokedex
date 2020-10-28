@@ -15,12 +15,13 @@ div {
 }
 
 ul {
-    text-align: center;
+    
+    justify-content: center;
 }
 
 li {
     color: teal;
-    font-size: large;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
